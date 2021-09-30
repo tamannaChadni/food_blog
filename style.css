@@ -1,0 +1,101 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    margin-bottom: 100px;
+}
+.flex-container {
+    display: flex;
+   
+}
+.about{
+    background-image: url(images/shapes/Group\ 8446.png);
+    background-repeat: no-repeat;
+}
+
+button{
+    text-decoration: none;
+    color: brown;
+   
+}
+.half{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.half img{
+    width: 60%;
+    justify-content: center;
+}
+.button-link{
+    text-decoration: none;
+    /* background-color: orangered; */
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(tomato,orangered);
+    color: white;
+    font-weight: 700;
+}
+.center{
+    text-align: center;
+    justify-content: space-around;
+}
+.box-shadow{
+    width: 30%;
+    margin-right: 5%;
+    margin-left:5% ;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px gray;
+}
+.box{
+    width: 80%;
+    height: 50%;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 15px;
+
+}
+.lower{
+    
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    width:90%;
+    height: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    justify-content: space-around;
+}
+footer{
+    text-align: center;
+    background-color: rgb(156, 244, 247);
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+h1{
+    font-weight: bolder;
+    font-size:  50px;
+    line-height: 20px;
+    
+}
+p{
+    font-size: 400;
+    
+}
+#one{
+    text-justify: inter-word;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 24px;
+    justify-content: space-between;
+    width: 60%;
+    height: 30%;
+    margin: auto;
+}
